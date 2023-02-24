@@ -1,4 +1,7 @@
 #! python3
+name = input("What is your name?")
+email = input("What is your email?")
+print("Your name is:" + name, ",and your email is:" + email)
 """
 Ask the user for their name and their email address.
 (2 points)

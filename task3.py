@@ -1,4 +1,10 @@
 #! python3
+a = input("Enter a value for variable a:")
+b = input("Enter a value for variable b:")
+c = input("Enter a value for variable c:")
+A = int(a)
+B = int(b)
+C = int(c)
 
 # Solve a two step algebra equation.
 # Two steps equations are in the format ax + b = c
