@@ -1,5 +1,9 @@
 #! python3
-#
+v = input("Enter the volume here:")
+pi = 22 / 7
+V = float(v)
+r = (3 * (V / (4 * pi))) ** (1.0 / 3)
+print(r)
 # Find the radius of a sphere if you are given the volume.
 # Think about how you would need to solve this equation if you were doing it on paper
 #

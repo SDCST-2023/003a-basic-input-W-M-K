@@ -1,5 +1,13 @@
 #! python3
-#
+import math 
+h = input("Enter the height here:")
+r = input("Enter the radius here:")
+pi = 22 / 7
+H = float(h)
+R = float(r)
+sa = (pi * R) * (R + (math.sqrt((H ** 2) + (R ** 2))))
+print(sa)
+
 # Surface area of a cone
 # Find the surface area of a cone given the height and the radius.
 # You will need to ask the user to enter in both variables, and will 
